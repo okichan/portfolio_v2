@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    background-color: #F3EEE2;
+}
+
+.page-frame {
+    box-sizing: border-box;
+    border: 15px solid #910C32;
+    width: 100vw;
+    height: 568px;
+}
+
+.girl-img{
+    position: absolute;
+    top: -46px;
+    left: 40%;
+    width: 54px;
+    background-color: transparent;
+}
+
+.outer-frame {
+    border: 5px solid black;
+    background-color: #98BFCC;
+    width: 80%;
+    height: 60%;
+    margin: 0 auto;
+    position: relative;
+    top: 16%;
+}
+
+/* Full Stack Developer */
+.outer-frame > p {
+    position: absolute;
+    bottom: 4px;
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+    background-color: transparent;
+}
+
+.inner-frame {
+    border: 5px solid black;
+    background-color: #F3EEE2;
+    width: 90%;
+    height: 79%;
+    margin: 0 auto;
+    position: relative;
+    top: 8%;
+}
+
+.inner-frame img {
+    height: 258px;
+    position: absolute;
+    padding-right: 9%;
+    padding-left: 15%;
+    border-right: 5px solid black;
+    background-color: transparent;
+}
+
+/* Tomomi Oki */
+.inner-frame > p {
+    transform: rotate(90deg);
+    width: 170px;
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+    position: absolute;
+    right: -60px;
+    top: 44%;
+    /* float: right; */
+    background-color: transparent;
+}
+
+.space-wide {
+    margin: 70vh 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.space-narrow {
+    margin: 10vh 0;
+}
