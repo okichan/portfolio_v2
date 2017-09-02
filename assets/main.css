@@ -4,6 +4,7 @@
     background-color: #F3EEE2;
 }
 
+/* Card 1 start */
 .page-frame {
     box-sizing: border-box;
     border: 15px solid #910C32;
@@ -21,9 +22,9 @@
 
 .outer-frame {
     border: 5px solid black;
-    background-color: #98BFCC;
+    background-color: rgba(152, 191, 204, 0.69);
     width: 80%;
-    height: 60%;
+    height: 56%;
     margin: 0 auto;
     position: relative;
     top: 16%;
@@ -32,7 +33,7 @@
 /* Full Stack Developer */
 .outer-frame > p {
     position: absolute;
-    bottom: 4px;
+    bottom: 9px;
     width: 100%;
     text-align: center;
     font-weight: 500;
@@ -43,20 +44,11 @@
     border: 5px solid black;
     background-color: #F3EEE2;
     width: 90%;
-    height: 71.2%;
+    height: 76%;
     margin: 0 auto;
     position: relative;
     top: 8%;
 }
-
-/* .inner-frame img {
-    height: 258px;
-    position: absolute;
-    padding-right: 9%;
-    padding-left: 15%;
-    border-right: 5px solid black;
-    background-color: transparent;
-} */
 
 .bg {
     background-image: url('/assets/name.png');
@@ -72,14 +64,89 @@
     transform: rotate(90deg);
     width: 170px;
     font-size: 25px;
-    font-weight: 300;
+    font-weight: 500;
     text-align: center;
     position: absolute;
-    right: -57px;
+    right: -54px;
     top: 44%;
-    /* float: right; */
     background-color: transparent;
 }
+/* Card 1 end */
+
+
+
+/* Card 2 start */
+.page-frame-2 {
+    box-sizing: border-box;
+    border: 15px solid #1C486B;
+    width: 100vw;
+    height: 568px;
+    position: relative;
+    z-index: 2;
+}
+
+.tsubaki-positioner {
+    position: relative;
+    overflow: hidden;
+    height: 135px;
+}
+
+.tsubaki {
+    transform: rotate(131deg);
+    width: 135px;
+    position: relative;
+    top: -29px;
+    left: -28px;
+    background-color: transparent;
+    z-index: 1;
+
+}    
+
+.inner-frame-2 {
+    border: 5px solid black;
+    background-color: transparent;
+    width: 70%;
+    height: 28.3%;
+    margin: 0 auto;
+    position: relative;
+    top: -117px;
+    z-index: 0;
+}    
+
+.bg-jiko {
+    background-image: url('/assets/jiko.png');
+    background-repeat: no-repeat;
+    background-position: 50% -6px;
+    width: 70%;
+    height: 100%;
+    border-right: 5px solid black;
+    background-color: transparent;
+}        
+
+/* About me */
+.inner-frame-2 > p {
+    transform: rotate(90deg);
+    width: 170px;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    position: absolute;
+    right: -54px;
+    top: 41%;
+    background-color: transparent;
+}
+
+.page-frame-2 > p {
+    font-family: 'Quicksand', sans-serif;
+    line-height: 1.4;
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    top: -70px;
+    padding-bottom: 11px; 
+    /* border: 2px solid purple; */
+}
+/* Card 2 end */
 
 .space-wide {
     margin: 70vh 0;
