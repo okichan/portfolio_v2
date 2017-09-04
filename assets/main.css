@@ -80,22 +80,26 @@
     box-sizing: border-box;
     border: 15px solid #1C486B;
     width: 100vw;
-    height: 568px;
+    min-height: 568px;
     position: relative;
-    z-index: 2;
+    overflow: hidden;
 }
 
 .tsubaki-positioner {
+    background-color: transparent;
+    width: 70%;
+    height: 100px;
+    margin: 0 auto;
     position: relative;
-    overflow: hidden;
-    height: 135px;
+    top: 17px;
+    left: -46px;
 }
 
 .tsubaki {
     transform: rotate(131deg);
     width: 135px;
     position: relative;
-    top: -29px;
+    top: -39px;
     left: -28px;
     background-color: transparent;
     z-index: 1;
@@ -106,12 +110,12 @@
     border: 5px solid black;
     background-color: transparent;
     width: 70%;
-    height: 28.3%;
+    height: 150px;
     margin: 0 auto;
     position: relative;
-    top: -117px;
+    top: -79px;
     z-index: 0;
-}    
+}
 
 .bg-jiko {
     background-image: url('/assets/jiko.png');
@@ -136,15 +140,24 @@
     background-color: transparent;
 }
 
+.fix-random-space {
+    /* border: 2px solid red; */
+    margin-top: -40px;
+    height: 2px;
+}
+
 .page-frame-2 > p {
     font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
     line-height: 1.4;
-    position: relative;
     width: 80%;
-    margin: 0 auto;
-    top: -70px;
+    margin-left: auto;
+    margin-right: auto;
     padding-bottom: 11px; 
-    /* border: 2px solid purple; */
+}
+
+.page-frame-2 > p:last-child {
+    margin-bottom: 1em;
 }
 /* Card 2 end */
 
@@ -156,8 +169,66 @@
     width: 100vw;
     height: 568px;
     position: relative;
-    z-index: 2;
+    background: url(/assets/hagi.png) no-repeat bottom right;
 }
+
+.inner-frame-3 {
+    border: 5px solid black;
+    background-color: transparent;
+    width: 70%;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+    top: 16px;
+}
+
+.bg-skills {
+    background-image: url('/assets/skills.png');
+    background-repeat: no-repeat;
+    background-position: -9px -10px;
+    width: 100%;
+    height: 63px;
+    border-bottom: 5px solid black;
+    background-color: transparent;
+}        
+
+/* Skills */
+.inner-frame-3 > p {
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+    top: 0; 
+    left: 14px;
+    background-color: transparent;
+}
+
+ul, li {
+    background-color: transparent;
+}
+
+.page-frame-3 ul {
+    list-style: none;
+    padding-top: 10px;
+    line-height: 2em;
+}
+
+.page-frame-3 li {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.page-frame-3 li a {
+    color: #DD0D14;
+}
+
+.page-frame-3 li a:hover {
+    text-decoration: none;
+}
+
+
+
+
+
+
 /* Card 3 end */
 
 
