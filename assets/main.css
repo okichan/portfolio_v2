@@ -148,6 +148,20 @@
 }
 /* Card 2 end */
 
+
+/* Card 3 start */
+.page-frame-3 {
+    box-sizing: border-box;
+    border: 15px solid #928C36;
+    width: 100vw;
+    height: 568px;
+    position: relative;
+    z-index: 2;
+}
+/* Card 3 end */
+
+
+
 .space-wide {
     margin: 70vh 0;
 }
