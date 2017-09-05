@@ -27,10 +27,11 @@ I chose to use Pinterest because it lets me pin any images around the internet.
 <br/>
 <br/>
 
-# Design Process 2 – Font selection
+# Design Process 2 – Font selection  
+---------------------------------
 First I went for traditional brush script.  
 <br/>
-![Kaisho](https://raw.githubusercontent.com/okichan/portfolio_v2/master/assets/kaisho.gif "Kaisho")
+![Kaisho](https://raw.githubusercontent.com/okichan/portfolio_v2/master/assets/kaisho.gif "Kaisho")  
 <br/>
 <br/>
 But it felt too traditional and there's no modernness so did not choose it.
@@ -38,9 +39,9 @@ But it felt too traditional and there's no modernness so did not choose it.
 ------------------------------
 <br/>
 Next I found this one.
-<br/>
+---------------------------------
 ![Mameron](https://raw.githubusercontent.com/okichan/portfolio_v2/master/assets/mameron.png "Mameron")  
-<br/>
+---------------------------
 It was not bad, but it felt a bit too nostalgic and mellow which does not quite match the look and feel I wanted to achieve.
 
 ------------------------------
