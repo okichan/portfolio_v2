@@ -31,30 +31,26 @@
 }
 
 .page-frame p {
-    font-family: 'Rubik', sans-serif !important;
+    font-family: 'Rubik', sans-serif;
     font-weight: 500;
     text-align: center;
+    background-color: transparent;
+    width: 100%;
+    position: absolute;
 }
 
 /* Tomomi Oki */
-.inner-frame > p {
+.inner-frame p {
     transform: rotate(90deg);
+    font-size: 30px;
     width: 170px;
-    font-size: 25px;
-    position: absolute;
     right: -54px;
     top: 44%;
-    background-color: transparent;
 }
 
 /* Full Stack Developer */
 .outer-frame > p {
-    position: absolute;
     bottom: 9px;
-    width: 100%;
-    /* text-align: center; */
-    /* font-weight: 500; */
-    background-color: transparent;
 }
 
 .inner-frame {
@@ -200,6 +196,7 @@
 
 /* Skills */
 .inner-frame-3 > p {
+    font-family: 'Rubik', sans-serif;
     font-size: 25px;
     font-weight: 500;
     position: relative;
@@ -223,13 +220,19 @@ ul, li {
 }
 
 .page-frame-3 li a {
-    color: #DD0D14;
-    /* transition: all 2s; */
+    color: #928C36;
+    font-weight: bold;
+    text-decoration: underline;
+    /* text-decoration-color: #928C36; */
+    text-decoration-skip: ink;
+    transition: all .5s;
 }
 
 .page-frame-3 li a:hover {
+    color: #C90E19;
+    
     text-decoration: none;
-    font-weight: 500;
+    font-weight: bold;
 }
 /* Card 3 end */
 
@@ -278,18 +281,9 @@ ul, li {
     z-index: 0;
 }
 
-.bg-project {
-    background-image: url('/assets/project.png');
-    background-repeat: no-repeat;
-    background-position: 50% -10px;
-    width: 70%;
-    height: 100%;
-    border-right: 5px solid black;
-    background-color: transparent;
-}
-
 /* Projects */
 .inner-frame-4 > p {
+    font-family: 'Rubik', sans-serif;
     transform: rotate(90deg);
     width: 170px;
     font-size: 25px;
@@ -301,50 +295,157 @@ ul, li {
     background-color: transparent;
 }
 
+.bg-project {
+    background-image: url('/assets/project.png');
+    background-repeat: no-repeat;
+    background-position: 50% -10px;
+    width: 70%;
+    height: 100%;
+    border-right: 5px solid black;
+    background-color: transparent;
+}
+
+
 .separater {
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
-    padding-bottom: 10px;
+    width: 80%;
+    padding-bottom: 2em;
 }
 
 .page-frame-4 span {
+    font-size: 16px;
     padding-right: 1em;
 }
+
+.page-frame-4 a {
+    color: #97130B;
+    text-decoration: underline;
+    text-decoration-color: #9E452A;
+    text-decoration-skip: ink;
+    font-weight: bold;
+    transition: color .5s;
+}
+
+.page-frame-4 a:hover {
+    color: #D44E47;
+    
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
 
 /* Card 4 end */
 
 
 
-.space-wide {
-    margin: 70vh 0;
+/* Card 5 start */
+.page-frame-5 {
+    box-sizing: border-box;
+    border: 15px solid #55295B;
+    width: 100vw;
+    height: 568px;
+    position: relative;
+    background: url('/assets/tsuru.png') no-repeat bottom left;
+    background-size: 124px;
+}
+
+.inner-frame-5 {
+    border: 5px solid black;
+    background-color: transparent;
+    width: 60%;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+    top: 16px;
+}
+
+.bg-contact {
+    background-image: url('/assets/toiawase.png');
+    background-repeat: no-repeat;
+    background-position: 50%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 63px;
+    border-bottom: 5px solid black;
+    background-color: transparent;
+    /* border: 1px solid red; */
+}
+
+/* Contact */
+.inner-frame-5 > p {
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+    text-align: center;
+    background-color: transparent;
+}
+
+form {
+    max-width: 70%;
+    margin: 10px auto 0 auto;
+    background-color: transparent;
+    /* border: 1px solid pink; */
+}
+
+input, textarea {
+    font-size: 1em;
+    display: block;
+    width: 96%;
+    margin: .5em auto;
+    padding: 5px 0px 5px 12px;
+    border: 1px solid #bbb;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border:1px solid #78A248;
+    box-shadow: 0 0 6px #78A248;
+}
+
+textarea {
+    height: 160px;
+    background-color: rgba(243, 238, 226, 0.8);
 }
 
 
+input[type="submit"] {
+    color: white;
+    font-weight: normal;
+    float: right;
+    width: 117px;
+    background-color: #78A248;
+    padding-right: 7px;
+}
 
+input[type="submit"]:hover {
+    /* color: red; */
+    font-weight: normal;
+    float: right;
+    width: 117px;
+    background-color: #78A248;
+    -webkit-animation: pulse 2s infinite;
+}
 
+@-webkit-keyframes pulse  
+{
+0% {background-color: #78A248;} 
+50% {background-color: #3B610F;}
+100% {background-color: #78A248;}
+}
+/* Card 5 end */
 
+figure {
+    text-align: center;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.space-wide {
+    margin: 30vh 0;
+}
 
 .space-narrow {
-    margin: 10vh 0;
+    margin: 4vh 0;
 }

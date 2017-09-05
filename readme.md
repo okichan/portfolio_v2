@@ -56,7 +56,7 @@ The one at the top was my very first idea which I quickly got bored.
 - I was struglling to place all the frames in a place I want. However I start to have understanding of what `relative` or `fixed`, `absolute` does, although I still tend to choose one hoping for the best.
 - Text rotation to vertical. Some texts flied to nowhere when all I did was just rotating it.
 - z-index. Apparently it all has to belong `position: relative`?
-
+- Keeping it DRY (don't repeat yourself) ― I noticed I repeat some elements too many times in my CSS, such as `font-family` and `font-weight`. It still works but I didn't like it so I spent extra time cleaning up several lines.
 
 
 # Lessons learnt:

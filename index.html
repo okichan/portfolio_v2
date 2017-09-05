@@ -1,4 +1,4 @@
-<!-- ruby -run -e httpd . -p 8000.txt -->
+<!-- ruby -run -e httpd . -p 8000 -->
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" href="/assets/main.css">
-        <link href="https://fonts.googleapis.com/css?family=Quicksand|Rubik:400,500" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500,700|Rubik:400,500" rel="stylesheet">
 
         <!-- this one is for google -->
         <meta name="description" content="Tomomi's Portfolio">
@@ -100,12 +100,12 @@
             <div class="fix-random-space"></div>
 
             <div class="separater">
-                <p>The unofficial Radiohead fan site</p>
+                <span>The unofficial Radiohead fan site</p>
                 <span> <a href="https://secretary-answers-11183.netlify.com" target="_blank">Site</a> </span>
             </div>
             
             <div class="separater">
-                <p>Responsive website practice: <br>Pseudo NGV Hokusai exhibition</p>
+                <span>Responsive website practice: <br>Pseudo NGV Hokusai exhibition</p>
                 <span> <a href="https://car-park-attendant-navigator-15513.netlify.com/" target="_blank">Site</a></span>
                 <span> <a href="https://github.com/okichan/hokusai" target="_blank">Git</a> </span>
                 <span> <a href="https://www.figma.com/file/N8x0yhI3YZQ5KyqiCmJFDp5W/Responsive-Hokusai-NGV" target="_blank">Figma</a> </span>
@@ -123,20 +123,29 @@
     <div class="space-wide"></div>
 
     <!-- Card 5 -->
-    <div class="page-frame">
-        <div class="outer-frame">
-            <img class="girl-img" src="/assets/coder_girl.png" alt="coder girl">
-            <div class="inner-frame">
-                <img src="/assets/name.png" alt="Tomomi Oki">
-                <p>Tomomi Oki</p>
-            </div>
-            <p>Full Stack Developer</p>
+    <div class="page-frame-5">
+        <div class="inner-frame-5">
+            <div class="bg-contact"></div>
+            <p>Contact</p>
         </div>
+        <br>
+        <form action="/">
+            <input type="text" name="firstname" placeholder="name">
+            <input type="text" name="email" placeholder="email">
+            <textarea name="message" placeholder="message"></textarea>
+            <input type="submit">
+        </form> 
     </div>
 
     <div class="space-narrow"></div>
+    
+    <figure>
+        <a href="https://github.com/okichan" target="_blank">
+            <img src="https://image.flaticon.com/icons/png/512/25/25231.png" alt="Jump to my Github" height="40px">
+        </a>
+        
+    </figure>
 
-    <span> 🙈</span> 
-
+    <div class="space-narrow"></div>
 </body>
 </html>
