@@ -12,17 +12,17 @@ I set my theme as "Modern Japanese", because:
 # My inspiration comes from:
 - Japanese food package design
 - Japanese anime
-- Japanese card games – Hanafuda and karuta
+- Japanese card games – [Hanafuda](https://en.wikipedia.org/wiki/Hanafuda) and [karuta](https://en.wikipedia.org/wiki/Karuta)
 - Taisho era (1910 ~ 20s) inspired art
 - Yumeji Takehisa
 
 # Design Process 1 – Mood board
 I chose to use Pinterest because it lets me pin any images around the internet.  
-&#160;
-&#160;
-&#160;
-&#160;
-&#160;
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 ![Pinterest](https://raw.githubusercontent.com/okichan/portfolio_v2/master/assets/pinterest.png "Pinterest")
   
   
