@@ -40,7 +40,7 @@ But it felt too traditional and there's no modernness so did not choose it.
 Next I found this one.
 <br/>
 ![Mameron](https://raw.githubusercontent.com/okichan/portfolio_v2/master/assets/mameron.png "Mameron")  
-
+<br/>
 It was not bad, but it felt a bit too nostalgic and mellow which does not quite match the look and feel I wanted to achieve.
 
 ------------------------------
@@ -67,10 +67,10 @@ I was recalling myself Abraham Lincoln's quote, which goes as follows:
 > **_"Give me six hours to chop down a tree and I will spend the first four sharpening the axe."_** 
 
 This was so true, I spent majority of hours desiging in Figma and the actual coding part was pretty smooth.
-- **Edit your file in local unless you know what you are doing!!!** 
-This was my official effed up moment.
-I once wiped out my 5-hour work of `readme.md` because there was a conflict between local file and remote. And I force overwrote my latest one saved in the remote with the old one saved in the local by doing "git push -f".
+- **Edit your file in local unless you know what you are doing!!!** <br>
+This was my official effed up moment.  
+I once wiped out my 5-hour work of `readme.md` because there was a conflict between local file and remote. And I force overwrote my latest one saved in the remote with the old one saved in the local by doing `git push -f`. <br>
 This happened because I kept editing my `readme.md` in remote repository directly.  
-I did create .gitignore in my local to exclude any `.md` files but it wasn't working for some reasons and thus `readme.mb` was pushed to remote when I only meant to push other files. Screw me.
+I did create `.gitignore` in my local to exclude any `.md` files but it wasn't working for some reasons and thus `readme.mb` was pushed to remote when I only meant to push other files. Screw me.
 
 
