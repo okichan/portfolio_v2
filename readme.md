@@ -18,7 +18,11 @@ I set my theme as "Modern Japanese", because:
 
 # Design Process 1 – Mood board
 I chose to use Pinterest because it lets me pin any images around the internet.  
-  
+&#160;
+&#160;
+&#160;
+&#160;
+&#160;
 ![Pinterest](https://raw.githubusercontent.com/okichan/portfolio_v2/master/assets/pinterest.png "Pinterest")
   
   
@@ -52,34 +56,5 @@ and I finally am settle in this one, this font is geometric and a little sharp w
 I once wiped out my 5-hour work of `readme.md` because there was a conflict between local file and remote. And I force overwrote my latest one saved in the remote with the old one saved in the local by doing "git push -f".
 This happened because I kept editing my `readme.md` in remote repository directly.  
 I did create .gitignore in my local to exclude any `.md` files but it wasn't working for some reasons and thus `readme.mb` was pushed to remote when I only meant to push other files. Screw me.
-
-
-
-V2
-マメロン
-和田研中丸ゴシック
-
-The theme is "Modern Japanese", because:
-- It expresses my background 
-- It is simple, yet not too formal, elegant but has a touch of quirkiness --- exactly the style I love.
-- Used square, thick, geometric style to avoid looking too "kawaii" (innocent and girly).
-
-
-
-Lessons learned:
-- Preparation is (almost) everything. --- Abraham Lincoln Quotes. "Give me six hours to chop down a tree and I will spend the first four sharpening the axe." This was so true, I spent majority of hours desiging in Figma.
-
-
-はんなり明朝
-衝山毛筆フォント行書
-しらなみ
-はれのそらｈ
-いろは角クラシック Regular
-
-
-V2
-マメロン
-和田研中丸ゴシック
-
 
 
