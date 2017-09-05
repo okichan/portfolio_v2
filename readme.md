@@ -41,7 +41,7 @@ It was not bad, but it felt a bit too nostalgic and mellow which does not quite 
 So I tried this one next.
 ![Wadaken](https://raw.githubusercontent.com/okichan/portfolio_v2/master/assets/wadaken.png "Wadaken")
 
-and I finally am settle in this one, this font is geometric and a little sharp which I thought gives the modern touch I was looking for. Also I wanted to treat Japanese characters more of a symbol rather than actual text (not many people can read anyway!!), I though this one does that job too.
+and I finally am settle in this one, this font is geometric and a little sharp which I thought gives the modern touch I was looking for. Also I wanted to treat Japanese characters more of a symbol rather than actual text (not many people can read anyway!!), I thought this one does that job too.
 
 # Design Process 3 – Figma
 The one at the top was my very first idea which I quickly got bored.
@@ -69,6 +69,5 @@ This was so true, I spent majority of hours desiging in Figma and the actual cod
 This was my official effed up moment.  
 I once wiped out my 5-hour work of `readme.md` because there was a conflict between local file and remote. And I force overwrote my latest one saved in the remote with the old one saved in the local by doing `git push -f`. <br>
 This happened because I kept editing my `readme.md` in remote repository directly.  
-I did create `.gitignore` in my local to exclude any `.md` files but it wasn't working for some reasons and thus `readme.mb` was pushed to remote when I only meant to push other files. Screw me.
-
-
+I did create `.gitignore` in my local to exclude any `.md` files but it wasn't working for some reasons and thus `readme.mb` was pushed to remote when I only meant to push other files. Screw me.  
+- Try getting a big picture ―  there were a few instances where I had to do repeat my work because the images I prepared weren't big enough, so when it's zoomed in it became looking a bit ugly.
