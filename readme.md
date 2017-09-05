@@ -20,21 +20,26 @@ I set my theme as "Modern Japanese", because:
 I chose to use Pinterest because it lets me pin any images around the internet.  
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
 ![Pinterest](https://raw.githubusercontent.com/okichan/portfolio_v2/master/assets/pinterest.png "Pinterest")
-  
-  
+<br/>
+<br/>
 [View Tomomi's Pinterest](https://au.pinterest.com/madeinwatashi/japanese-modern/)
+<br/>
+<br/>
 
 # Design Process 2 – Font selection
 First I went for traditional brush script.  
+<br/>
 ![Kaisho](https://raw.githubusercontent.com/okichan/portfolio_v2/master/assets/kaisho.gif "Kaisho")
+<br/>
+<br/>
 
 But it felt too traditional and there's no modernness so did not choose it.
------------------------------------
+<br/>
+<br/>
+<br/>
 Next I found this one.
+<br/>
 ![Mameron](https://raw.githubusercontent.com/okichan/portfolio_v2/master/assets/mameron.png "Mameron")  
 
 It was not bad, but it felt a bit too nostalgic and mellow which does not quite match the look and feel I wanted to achieve.
@@ -43,11 +48,15 @@ It was not bad, but it felt a bit too nostalgic and mellow which does not quite 
 So I tried this one next.
 ![Wadaken](https://raw.githubusercontent.com/okichan/portfolio_v2/master/assets/wadaken.png "Wadaken")
 
-and I finally am settle in this one, this font is geometric and a little sharp which I thought matches 
+and I finally am settle in this one, this font is geometric and a little sharp which I thought gives the modern touch I was looking for. Also I wanted to treat Japanese characters more of a symbol rather than actual text, I though this one does that job too.
+<br/>
+<br/>
 
 # Design Process 3 – Figma
-![Figma](https://raw.githubusercontent.com/okichan/portfolio_v2/master/assets/figma.png "Figma")  
-[View Tomomi's Pinterest](https://au.pinterest.com/madeinwatashi/japanese-modern/)
+![Figma](https://raw.githubusercontent.com/okichan/portfolio_v2/master/assets/figma.png "Figma")
+<br/>
+<br/>
+[View Tomomi's Figma](https://www.figma.com/file/HSQQXVgZZxc1hClYtX8x0IWr/Portfolio)
 
 
 # Lessons learned:
