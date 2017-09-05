@@ -28,7 +28,7 @@ I chose to use Pinterest because it lets me pin any images around the internet.
 <br/>
 
 # Design Process 2 – Font selection  
-First I went for traditional brush script.  
+#### First I went for traditional brush script.  
 ![Kaisho](https://raw.githubusercontent.com/okichan/portfolio_v2/master/assets/kaisho.gif "Kaisho")  
 But it felt too traditional and there's no modernness so did not choose it.
 ------------------------------
@@ -50,6 +50,12 @@ The one at the top was my very first idea which I quickly got bored.
 <br/>
 <br/>
 [View Tomomi's Figma](https://www.figma.com/file/HSQQXVgZZxc1hClYtX8x0IWr/Portfolio)
+
+# Technical challanges
+- I was struglling to place all the frames in a place I want. However I start to have understanding of what `relative` or `fixed`, `absolute` does, although I still tend to choose one hoping for the best.
+- Text rotation to vertical. Some texts flied to nowhere when all I did was just rotating it.
+- z-index. Apparently it all has to belong `position: relative`?
+
 
 
 # Lessons learnt:
