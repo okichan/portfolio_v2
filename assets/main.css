@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     background-color: #F3EEE2;
 }
 
@@ -30,13 +30,30 @@
     top: 16%;
 }
 
+.page-frame p {
+    font-family: 'Rubik', sans-serif !important;
+    font-weight: 500;
+    text-align: center;
+}
+
+/* Tomomi Oki */
+.inner-frame > p {
+    transform: rotate(90deg);
+    width: 170px;
+    font-size: 25px;
+    position: absolute;
+    right: -54px;
+    top: 44%;
+    background-color: transparent;
+}
+
 /* Full Stack Developer */
 .outer-frame > p {
     position: absolute;
     bottom: 9px;
     width: 100%;
-    text-align: center;
-    font-weight: 500;
+    /* text-align: center; */
+    /* font-weight: 500; */
     background-color: transparent;
 }
 
@@ -59,18 +76,6 @@
     border-right: 5px solid black;
 }
 
-/* Tomomi Oki */
-.inner-frame > p {
-    transform: rotate(90deg);
-    width: 170px;
-    font-size: 25px;
-    font-weight: 500;
-    text-align: center;
-    position: absolute;
-    right: -54px;
-    top: 44%;
-    background-color: transparent;
-}
 /* Card 1 end */
 
 
@@ -103,8 +108,8 @@
     left: -28px;
     background-color: transparent;
     z-index: 1;
-
-}    
+    
+}
 
 .inner-frame-2 {
     border: 5px solid black;
@@ -125,10 +130,11 @@
     height: 100%;
     border-right: 5px solid black;
     background-color: transparent;
-}        
+}
 
 /* About me */
 .inner-frame-2 > p {
+    font-family: 'Rubik', sans-serif;
     transform: rotate(90deg);
     width: 170px;
     font-size: 25px;
@@ -218,18 +224,95 @@ ul, li {
 
 .page-frame-3 li a {
     color: #DD0D14;
+    /* transition: all 2s; */
 }
 
 .page-frame-3 li a:hover {
     text-decoration: none;
+    font-weight: 500;
+}
+/* Card 3 end */
+
+
+/* Card 4 start */
+.page-frame-4 {
+    box-sizing: border-box;
+    border: 15px solid #9E452A;
+    width: 100vw;
+    min-height: 568px;
+    position: relative;
+    overflow: hidden;
 }
 
+.fuji-positioner {
+    background-color: transparent;
+    height: 140px;
+}
 
+.fuji-left {
+    width: 90px;
+    float: left;
+    position: relative;
+    z-index: 1;
+    background-color: transparent;
+}
 
+.fuji-right {
+    width: 90px;
+    float: right;
+    position: relative;
+    top: -6px;
+    z-index: 1;
+    transform: scaleX(-1);
+    background-color: transparent;
+}
 
+.inner-frame-4 {
+    border: 5px solid black;
+    background-color: transparent;
+    width: 70%;
+    height: 137px;
+    margin: 0 auto;
+    position: relative;
+    top: -79px;
+    z-index: 0;
+}
 
+.bg-project {
+    background-image: url('/assets/project.png');
+    background-repeat: no-repeat;
+    background-position: 50% -10px;
+    width: 70%;
+    height: 100%;
+    border-right: 5px solid black;
+    background-color: transparent;
+}
 
-/* Card 3 end */
+/* Projects */
+.inner-frame-4 > p {
+    transform: rotate(90deg);
+    width: 170px;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    position: absolute;
+    right: -54px;
+    top: 41%;
+    background-color: transparent;
+}
+
+.separater {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    padding-bottom: 10px;
+}
+
+.page-frame-4 span {
+    padding-right: 1em;
+}
+
+/* Card 4 end */
 
 
 
