@@ -4,12 +4,16 @@
     background-color: #F3EEE2;
 }
 
+body {
+	overflow-x: hidden;
+}
+
 /* Card 1 start */
 .page-frame {
     box-sizing: border-box;
     border: 15px solid #910C32;
-    width: 100vw;
-    height: 568px;
+	width: 98vw; margin-left: auto; margin-right: auto;
+	height: 568px;
 }
 
 .girl-img{
@@ -40,12 +44,26 @@
 }
 
 /* Tomomi Oki */
+.inner-frame {
+	border: 5px solid black;
+	background-color: #F3EEE2 !important;
+	width: 90%;
+	height: 231px;
+	margin: 0 auto;
+	position: relative;
+	top: 8%;
+	background: url('/assets/name.png') no-repeat 10% -3px;
+	background-size: 103px;
+}
+
 .inner-frame p {
     transform: rotate(90deg);
     font-size: 30px;
-    width: 170px;
+    width: 231px;
     right: -54px;
-    top: 44%;
+	top: 36%;
+	padding-bottom: 24px;
+	border-bottom: 5px solid black;
 }
 
 /* Full Stack Developer */
@@ -53,24 +71,6 @@
     bottom: 9px;
 }
 
-.inner-frame {
-    border: 5px solid black;
-    background-color: #F3EEE2;
-    width: 90%;
-    height: 76%;
-    margin: 0 auto;
-    position: relative;
-    top: 8%;
-}
-
-.bg {
-    background-image: url('/assets/name.png');
-    background-repeat: no-repeat;
-    background-position: 50% -6px;
-    width: 70%;
-    height: 100%;
-    border-right: 5px solid black;
-}
 /* Card 1 end */
 
 
@@ -79,7 +79,7 @@
 .page-frame-2 {
     box-sizing: border-box;
     border: 15px solid #1C486B;
-    width: 100vw;
+    width: 98vw; margin-left: auto; margin-right: auto;
     min-height: 568px;
     position: relative;
     overflow: hidden;
@@ -96,10 +96,10 @@
 }
 
 .tsubaki {
-    /* transform: rotate(134deg); */
-    width: 168px;
+    transform: rotate(-2deg);
+    width: 189px;
     position: relative;
-    top: -52px;
+    top: -60px;
     left: -36px;
     background-color: transparent;
     z-index: 1;
@@ -113,7 +113,7 @@
     height: 150px;
     margin: 0 auto;
     position: relative;
-    top: -79px;
+    top: -70px;
     z-index: 0;
 }
 
@@ -170,15 +170,22 @@
 .page-frame-3 {
     box-sizing: border-box;
     border: 15px solid #928C36;
-    width: 100vw;
+    width: 98vw; margin-left: auto; margin-right: auto;
     height: 568px;
     position: relative;
-    background: url(/assets/hagi.png) no-repeat bottom right;
-    background-size: 150px;    
+    /* background: url(/assets/hagi.png) no-repeat bottom right;
+    background-size: 150px;     */
 }
 
 .hagi {
-	display: none;
+	display: block;
+	width: 50%;
+	max-width: 200px;
+	/* max-height: 300px; */
+	position: absolute;
+	right: 0;
+	bottom: 50px;
+	background-color: transparent;
 }
 
 .inner-frame-3 {
@@ -251,7 +258,7 @@ ul, li {
 .page-frame-4 {
     box-sizing: border-box;
     border: 15px solid #9E452A;
-    width: 100vw;
+    width: 98vw; margin-left: auto; margin-right: auto;
     min-height: 568px;
     position: relative;
     overflow: hidden;
@@ -354,7 +361,7 @@ ul, li {
 .page-frame-5 {
     box-sizing: border-box;
     border: 15px solid #55295B;
-    width: 100vw;
+    width: 98vw; margin-left: auto; margin-right: auto;
     height: 568px;
     position: relative;
     background: url('/assets/tsuru.png') no-repeat bottom left;
@@ -512,10 +519,6 @@ footer a {
 /* Desktop view */
 @media (min-width: 1024px) {
 			/* Card 1 start */
-			body {
-				overflow-x: hidden;
-			}
-
 			.page-frame {
 				box-sizing: border-box;
 				border: 30px solid #910C32;
@@ -590,9 +593,10 @@ footer a {
 			.inner-frame p {
 				transform: rotate(90deg);
 				font-size: 30px;
-				width: 170px;
-				right: -54px;
-				top: 44%;
+				width: 235px;
+				right: -25%;
+				top: 37%;
+				border-bottom: 5px solid black;
 			}
 
 		/* Full Stack Developer */
@@ -645,8 +649,8 @@ footer a {
 			}
 
 			.tsubaki {
-				/* transform: rotate(134deg); */
-				width: 295px;
+				transform: rotate(-3deg);
+				width: 300px;
 				position: relative;
 				background-color: transparent;
 				left: -153px;
