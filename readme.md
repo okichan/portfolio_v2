@@ -57,7 +57,9 @@ The one at the top was my very first idea which I quickly got bored.
 - Text rotation to vertical. Some texts flied to nowhere when all I did was just rotating it.
 - z-index. Apparently it all has to belong `position: relative`?
 - Keeping it DRY (don't repeat yourself) ― I noticed I repeat some elements too many times in my CSS, such as `font-family` and `font-weight`. It still works but I didn't like it so I spent extra time cleaning up several lines.
-
+- Implementing animation. I took Ruegen's feedback and decided to implement animation. What I knew I wanted to do is that it only swings or rotates once, when you scroll down and visible in the screen (apparently it's called viewpoint).
+I researched a bit and there was this handy plugin called [CSS3 Animate It](http://jackonthe.net/css3animateit/examples/), which helped me a lot saving my time.
+I also learnt how to implement jQuery in your html.
 
 # Lessons learnt:
 - Preparation is (almost) everything.
