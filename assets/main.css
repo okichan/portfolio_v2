@@ -437,10 +437,10 @@ input[type="submit"]:hover {
     float: right;
     width: 117px;
     background-color: #78A248;
-    -webkit-animation: pulse 2s infinite;
+    animation: pulse 2s infinite;
 }
 
-@-webkit-keyframes pulse  
+@keyframes pulse  
 {
     0% {background-color: #78A248;} 
     50% {background-color: #3B610F;}
@@ -458,12 +458,42 @@ input[type="submit"]:hover {
 }
 
 /* Footer */
-figure {
-    text-align: center;
+footer {
+	width: 113px;
+	margin-left: auto;
+	margin-right: auto;
+	/* border: 2px solid red; */
 }
 
-figure a {
+footer a {
 	text-decoration: none;
+}
+
+#git {
+	background: url(/assets/git.png) no-repeat;
+	background-size: 100%;
+	display: inline-block;   
+	margin-right: 12px;
+	height: 48px;   
+	width: 48px;   
+	text-indent: -9999px; 
+}
+
+#git:hover {
+	background-position: 0 -48px;
+}
+
+#linkedin {
+	background: url(/assets/linkedin.png) no-repeat;
+	background-size: 100%;
+	display: inline-block;   
+	height: 48px;   
+	width: 48px;   
+	text-indent: -9999px; 
+}
+
+#linkedin:hover {
+	background-position: 0 -48px;
 }
 
 .space-wide {
