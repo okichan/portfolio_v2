@@ -270,9 +270,10 @@ ul, li {
     width: 90px;
     float: right;
     position: relative;
-    top: -6px;
+    top: -20px;
+    right: -10px;
     z-index: 1;
-    transform: scaleX(-1);
+    /* transform: scaleX(-1); */
     background-color: transparent;
 }
 
@@ -302,9 +303,11 @@ ul, li {
 }
 
 .bg-project {
-    background-image: url('/assets/project.png');
+    background-image: url('/assets/kikaku.png');
     background-repeat: no-repeat;
-    background-position: 50% -10px;
+	background-position: 50% -2px;
+	background-size: 82px;
+	
     width: 70%;
     height: 100%;
     border-right: 5px solid black;
@@ -453,6 +456,10 @@ input[type="submit"]:hover {
 /* Footer */
 figure {
     text-align: center;
+}
+
+figure a {
+	text-decoration: none;
 }
 
 .space-wide {
@@ -696,6 +703,8 @@ figure {
 			.nav a {
 				font-size: 19px;
 				color: #333;
+				text-decoration-skip: ink;
+				text-decoration-color: #333;
 			}
 
 			.nav a:hover {
@@ -714,9 +723,11 @@ figure {
 				margin-right: auto;
 				height: 568px;
 				position: relative;
-				background: url(/assets/hagi.png) no-repeat bottom right;
-				background-size: 150px;    
+				background: url(/assets/hagi2.png) no-repeat;
+				background-size: 240px;
+				background-position: right 70%;
 			}
+
 
 			.inner-frame-3 {
 				border: 5px solid black;
@@ -727,15 +738,13 @@ figure {
 				position: absolute;
 				top: 50%; 
 				transform: translate(0%, -50%);
-				
-
 			}
 
 			.bg-skills {
 				background-image: url('/assets/ginou.png');
 				background-repeat: no-repeat;
 				background-size: 250px;
-				/* background-position: -9px -10px; */
+				background-position: 50% 50%;
 				width: 100%;
 				height: 67%;
 				border-bottom: 5px solid black;
@@ -743,13 +752,15 @@ figure {
 			}        
 
 			/* Skills */
-			.inner-frame-3 > p {
+			.inner-frame-3 p {
 				font-family: 'Rubik', sans-serif;
 				font-size: 30px;
 				font-weight: 500;
+				text-align: center;
 				position: relative;
+				/* width: inherit; */
 				top: 5px; 
-				left: 14px;
+				left: 0;
 				background-color: transparent;
 			}
 
@@ -769,7 +780,14 @@ figure {
 			
 			.page-frame-3 li {
 				font-family: 'Quicksand', sans-serif;
+				font-size: 20px;
 				line-height: 2em;
+				/* padding-left: 30%; */
+				/* border: 2px solid coral; */
+			}
+
+			.page-frame-3 li:first-child {
+				padding-top: 1em;
 			}
 
 			.page-frame-3 li a {
@@ -778,12 +796,11 @@ figure {
 				text-decoration: underline;
 				/* text-decoration-color: #928C36; */
 				text-decoration-skip: ink;
-				transition: all .5s;
+				transition: color .5s;
 			}
 
 			.page-frame-3 li a:hover {
 				color: #C90E19;
-				
 				text-decoration: none;
 				font-weight: bold;
 			}
@@ -791,4 +808,130 @@ figure {
 
 
 
+
+			/* Card 4 start */
+			.page-frame-4 {
+				box-sizing: border-box;
+				border: 30px solid #9E452A;
+				width: 99vw;
+				margin-left: auto;
+				margin-right: auto;
+				min-height: 568px;
+				position: relative;
+				overflow: hidden;
+			}
+
+
+			.inner-frame-4 {
+				border: 5px solid black;
+				background-color: transparent;
+				width: 29%;
+				height: 232px;
+				float: left;
+				position: absolute;
+				top: 130px;
+				left: 13%;
+				z-index: 0;
+			}
+
+			.bg-project {
+				background-image: url('/assets/kikaku.png');
+				background-repeat: no-repeat;
+				background-position: 50% -2px;
+				background-size: 138px;
+				width: 70%;
+				height: 100%;
+				border-right: 5px solid black;
+				background-color: transparent;
+			}
+
+			/* Projects */
+			.inner-frame-4  p {
+				font-family: 'Rubik', sans-serif;
+				transform: rotate(90deg);
+				width: 173px;
+				font-size: 37px;
+				font-weight: 500;
+				text-align: center;
+				position: absolute;
+				right: -46px;
+				top: 41%;
+				background-color: transparent;
+			}
+
+			.fix-random-space {
+				/* border: 2px solid red; */
+				margin-top: -40px;
+				height: 2px;
+			}
+
+			.fuji-positioner {
+				background-color: transparent;
+				height: 140px;
+			}
+			
+			.fuji-left {
+				width: 160px;
+				float: left;
+				position: relative;
+				z-index: 1;
+				background-color: transparent;
+			}
+			
+			.fuji-right {
+				width: 170px;
+				float: right;
+				position: relative;
+				top: -6px;
+				z-index: 1;
+				transform: scaleX(-1);
+				background-color: transparent;
+			}
+
+			/* .col-right {
+				height: 100%;
+				float: right;
+				border-left: 1px solid #DAC89F;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translateY(-50%);
+			}
+			
+			.col-right p {
+				font-family: 'Quicksand', sans-serif;
+				font-size: 17px;
+				padding: 10px 35px;
+			}
+
+			.col-right p:first-child {
+				margin-top: 6em;
+			} */
+
+			/* .page-frame-2 > p:last-child {
+				margin-bottom: 1em;
+			} */
+
+			/* .nav {
+				display: block;
+				position: absolute;
+				bottom: 3px;
+				right: 10px;
+			}
+
+			.nav span {
+				margin: 0 10px;
+			}
+			
+			.nav a {
+				font-size: 19px;
+				color: #333;
+				text-decoration-skip: ink;
+				text-decoration-color: #333;
+			}
+
+			.nav a:hover {
+				text-decoration: none;
+			} */
+			/* Card 4 end */
 }
