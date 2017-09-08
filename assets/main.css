@@ -428,7 +428,6 @@ input:focus, textarea:focus {
 
 textarea {
     height: 160px;
-    background-color: rgba(243, 238, 226, 0.8);
 }
 
 
@@ -456,9 +455,17 @@ input[type="submit"]:hover {
     50% {background-color: #3B610F;}
     100% {background-color: #78A248;}
 }
+
+.form-container {
+	background-color: transparent;
+}
 /* Card 5 end */
 
-/* Link for desktop view only */
+
+
+
+
+/* Top menu is for desktop view only */
 .menu {
 	display: none;
 }
@@ -522,26 +529,69 @@ footer a {
 /* Desktop view */
 @media (min-width: 1024px) {
 			/* Card 1 start */
+			.girl-img {
+				position: absolute;
+				top: -60px;
+				left: 40%;
+				width: 69px;
+				background-color: transparent;
+			}
+
 			.page-frame {
 				box-sizing: border-box;
 				border: 30px solid #910C32;
 				width: 99vw;
 				height: 568px;
 				margin: 0 auto;
-			}
+			}	
 			
+			.page-frame p {
+				font-family: 'Rubik', sans-serif;
+				font-weight: 500;
+				text-align: center;
+				background-color: transparent;
+				width: 100%;
+				position: absolute;
+			}
+
 			.outer-frame {
 				border: 5px solid black;
 				background-color: rgba(152, 191, 204, 0.69);
 				width: 24%;
 				height: 59.5%;
 				float: left;
-				/* margin: 0 auto; */
-				/* position: relative; */
 				left: 10%;
 				top: 20%;
+			}		
+			
+			/* Full Stack Developer */
+			.outer-frame > p {
+				bottom: 9px;
 			}
-
+			
+			.inner-frame {
+				border: 5px solid black;
+				background-color: #F3EEE2;
+				width: 90%;
+				height: 76%;
+				margin: 0 auto;
+				position: relative;
+				top: 8%;
+			}
+			
+			/* Tomomi Oki */
+			.inner-frame p {
+				padding-bottom: 10px;
+				transform: rotate(90deg);
+				font-size: 30px;
+				width: 235px;
+				right: -27%;
+				top: 40%;
+				/* transform: translate(-50%, -50%) */
+				/* margin-bottom: -100px; */
+				border-bottom: 5px solid black;
+			}	
+	
 			.menu {
 				float: right;
 				position: relative;
@@ -563,7 +613,6 @@ footer a {
 				font-family: 'Rubik', sans-serif;
 				font-size: 35px;
 				line-height: 2;
-				/* border-bottom: 2px solid #910C32; */
 				text-decoration-skip: ink;
 				text-decoration-color: rgba(152, 191, 204, 0.69);
 				color: #333;
@@ -573,57 +622,6 @@ footer a {
 			.menu li a:hover {
 				text-decoration: none;
 				color: #A1110D
-			}
-
-			.girl-img {
-				position: absolute;
-				top: -60px;
-				left: 40%;
-				width: 69px;
-				background-color: transparent;
-			}
-
-			.page-frame p {
-				font-family: 'Rubik', sans-serif;
-				font-weight: 500;
-				text-align: center;
-				background-color: transparent;
-				width: 100%;
-				position: absolute;
-			}
-
-		/* Tomomi Oki */
-			.inner-frame p {
-				transform: rotate(90deg);
-				font-size: 30px;
-				width: 235px;
-				right: -25%;
-				top: 37%;
-				border-bottom: 5px solid black;
-			}
-
-		/* Full Stack Developer */
-			.outer-frame > p {
-				bottom: 9px;
-			}
-
-			.inner-frame {
-				border: 5px solid black;
-				background-color: #F3EEE2;
-				width: 90%;
-				height: 76%;
-				margin: 0 auto;
-				position: relative;
-				top: 8%;
-			}
-
-			.bg {
-				background-image: url('/assets/tomomi.svg');
-				background-repeat: no-repeat;
-				background-position: 50% -7px;
-				width: 70%;
-				height: 100%;
-				border-right: 5px solid black;
 			}
 			/* Card 1 end */   
 
@@ -992,10 +990,8 @@ footer a {
 			}
 
 			.bg-contact {
-				background-image: url('/assets/toiawase.png');
-				background-repeat: no-repeat;
-				background-size: 260px;
-				background-position: 50% 50%;
+				background: url('/assets/toiawase.png') no-repeat 50% 40%;
+				background-size: 250px;
 				width: 100%;
 				height: 67%;
 				border-bottom: 5px solid black;
@@ -1023,6 +1019,17 @@ footer a {
 				margin-top: -20px;
 				padding: 0;
 			}
+
+			form {
+				position: relative;
+				top: 45%;
+				transform: translate(0%, -50%);
+			}
+
+			textarea {
+				height: 190px;
+			}
+			
 			/* Card 5 end */
 			
 }
