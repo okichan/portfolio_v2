@@ -60,6 +60,7 @@ The one at the top was my very first idea which I quickly got bored.
 - Implementing animation. I took Ruegen's feedback and decided to implement animation. What I knew I wanted to do is that it only swings or rotates once, when you scroll down and the object is visible in the screen (apparently it's called viewpoint).
 I researched a bit and there was this handy plugin called [CSS3 Animate It](http://jackonthe.net/css3animateit/examples/), which helped me a lot saving my time.
 I also learnt how to implement jQuery in your html.
+- Not quite sure how to use svg. Svg's I created with Vectr get blurry as I zoom in..?????
 
 # Lessons learnt:
 - Preparation is (almost) everything.
@@ -75,3 +76,7 @@ I did create `.gitignore` in my local to exclude any `.md` files but it wasn't w
 - Try getting a big picture ― there were a few instances where I had to do repeat my work because the images I prepared weren't big enough, so when it's zoomed in it became looking a bit ugly.
 - Name your classes wisely ― I realised it's quite easy to get lost in your own coding if the classes are poorly named. I named a bunch of links at the top page "link" which later I ended up investigating what that means.
 I changed it to "menu" which is much more self-explanatory.
+
+
+# Enough talk, here is the website.
+## https://tomomioki.netlify.com/

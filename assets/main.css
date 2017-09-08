@@ -150,7 +150,6 @@ body {
 
 .col-right > p {
 	text-shadow: 1px 1px 4px rgba(77, 77, 77, 0.3);
-    font-family: 'Quicksand', sans-serif;
     font-size: 16px;
     line-height: 1.4;
     width: 80%;
@@ -231,10 +230,6 @@ ul, li {
 	line-height: 2em;
 	text-shadow: 1px 1px 4px rgba(77, 77, 77, 0.3);
 	
-}
-
-.page-frame-3 li {
-    font-family: 'Quicksand', sans-serif;
 }
 
 .page-frame-3 li a {
@@ -714,7 +709,6 @@ footer a {
 			}
 			
 			.col-right p {
-				font-family: 'Quicksand', sans-serif;
 				font-size: 17px;
 				padding: 10px 35px;
 				/* margin: 15px 0; */
@@ -827,7 +821,6 @@ footer a {
 			}
 			
 			.page-frame-3 li {
-				font-family: 'Quicksand', sans-serif;
 				font-size: 20px;
 				line-height: 2em;
 				/* padding-left: 30%; */
