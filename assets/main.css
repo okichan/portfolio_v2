@@ -149,6 +149,7 @@ body {
 }
 
 .col-right > p {
+	text-shadow: 1px 1px 4px rgba(77, 77, 77, 0.3);
     font-family: 'Quicksand', sans-serif;
     font-size: 16px;
     line-height: 1.4;
@@ -227,7 +228,9 @@ ul, li {
 .page-frame-3 ul {
     list-style: none;
     padding-top: 10px;
-    line-height: 2em;
+	line-height: 2em;
+	text-shadow: 1px 1px 4px rgba(77, 77, 77, 0.3);
+	
 }
 
 .page-frame-3 li {
@@ -278,13 +281,13 @@ ul, li {
 }
 
 .fuji-right {
-    width: 90px;
+    width: 100px;
     float: right;
     position: relative;
-    top: -20px;
-    right: -10px;
+    top: -10px;
+    right: -30px;
     z-index: 1;
-    /* transform: scaleX(-1); */
+	transform: scaleX(-1) !important;
     background-color: transparent;
 }
 
@@ -329,28 +332,29 @@ ul, li {
     margin-left: auto;
     margin-right: auto;
     width: 80%;
-    padding-bottom: 2em;
+	padding-bottom: 2em;
+	text-shadow: 1px 1px 4px rgba(77, 77, 77, 0.3);
 }
 
-.page-frame-4 separater span {
-    font-size: 16px;
-    padding-right: 1em;
+.separater p {
+	border-bottom: 5px solid transparent;
 }
 
-.page-frame-4 separater a {
-    color: #97130B;
+.page-frame-4 .separater span {
+	font-size: 16px;
+	padding-right: 10px;
+}
+
+.page-frame-4 .separater a {
+	color: #333;
     text-decoration: underline;
-    text-decoration-color: #9E452A;
-    text-decoration-skip: ink;
-    font-weight: bold;
+	text-decoration-skip: ink;
     transition: color .5s;
 }
 
-.page-frame-4 separater a:hover {
+.page-frame-4 .separater a:hover {
     color: #D44E47;
-    
     text-decoration: none;
-    font-weight: bold;
 }
 /* Card 4 end */
 
@@ -379,9 +383,8 @@ ul, li {
 }
 
 .bg-contact {
-    background-image: url('/assets/toiawase.png');
-    background-repeat: no-repeat;
-    background-position: 50%;
+	background: url('/assets/toiawase.png') no-repeat 50% 43%;
+	background-size: 144px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -456,7 +459,7 @@ input[type="submit"]:hover {
 /* Card 5 end */
 
 /* Link for desktop view only */
-.link {
+.menu {
 	display: none;
 }
 
@@ -539,24 +542,24 @@ footer a {
 				top: 20%;
 			}
 
-			.link {
+			.menu {
 				float: right;
 				position: relative;
 				/* top: 23%; */
 				width: 50%;
 				height: 100%;
 				display: block;
-				border-left: 1px solid #DAC89F;
+				border-left: 1px solid #DCD2C2;
 			}
 
-			.link ul {
+			.menu ul {
 				list-style: none;
 				position: absolute;
 				top: 50%;
 				transform: translate(65%, -50%);
 			}
 			
-			.link li a {
+			.menu li a {
 				font-family: 'Rubik', sans-serif;
 				font-size: 35px;
 				line-height: 2;
@@ -567,7 +570,7 @@ footer a {
 				transition: color .3s;
 			}
 
-			.link li a:hover {
+			.menu li a:hover {
 				text-decoration: none;
 				color: #A1110D
 			}
@@ -705,7 +708,7 @@ footer a {
 			.col-right {
 				height: 100%;
 				float: right;
-				border-left: 1px solid #DAC89F;
+				border-left: 1px solid #DCD2C2;
 				position: absolute;
 				top: 50%;
 				left: 50%;
@@ -818,7 +821,7 @@ footer a {
 			.page-frame-3 ul {
 				height: 98%;
 				float: right;
-				border-left: 1px solid #DAC89F;
+				border-left: 1px solid #DCD2C2;
 				position: absolute;
 				top: 50%;
 				left: 50%;
@@ -882,7 +885,8 @@ footer a {
 			}
 			
 			.fuji-right {
-				width: 170px;
+				width: 17%;
+				max-width: 300px;
 				float: right;
 				position: relative;
 				top: -16px;
@@ -929,31 +933,36 @@ footer a {
 			}	
 
 			.fix-random-space {
-				/* border: 2px solid red; */
 				margin-top: -40px;
 				height: 2px;
 			}	
-
+			
 			.page-frame-4 .col-right .separater p {
+				font-size: 23px;
 				width: 400px;
 				padding: 10px 0;
 				margin: 0;
 				position: relative;
 			}			
-
-			.page-frame-4 .col-right .separater:first-child {
-				margin-top: 30%;
-				/* background-color: royalblue; */
-			}			
-
-			.page-frame-4 .col-right .separater a {
-				color: #333;
+			
+			.separater:first-child {
+				margin-top: 22%;
+			}
+			
+			.separater a {
+				font-size: 20px;
+				/* color: #333; */
+				transition: color 0.4s;
 			}			
 
 			.page-frame-4 .col-right .separater a:hover {
 				text-decoration: none;
 				color: #9E452A;
-			}			
+			}		
+			
+			.separater span {
+				margin-right: 1em;
+			}
 			/* Card 4 end */
 
 
@@ -971,5 +980,50 @@ footer a {
 				overflow: hidden;
 			}
 
+			.inner-frame-5 {
+				border: 5px solid black;
+				background-color: transparent;
+				width: 28%;
+				height: 160px;
+				left: 8%;
+				position: absolute;
+				top: 50%; 
+				transform: translate(0%, -50%);
+			}
 
+			.bg-contact {
+				background-image: url('/assets/toiawase.png');
+				background-repeat: no-repeat;
+				background-size: 260px;
+				background-position: 50% 50%;
+				width: 100%;
+				height: 67%;
+				border-bottom: 5px solid black;
+				background-color: transparent;
+			}        
+
+			/* Contact */
+			.inner-frame-5 p {
+				font-family: 'Rubik', sans-serif;
+				font-size: 30px;
+				font-weight: 500;
+				text-align: center;
+				position: relative;
+				top: 5px; 
+				left: 0;
+				background-color: transparent;
+			}
+
+			.form-container {
+				box-sizing: border-box;
+				border-left: 1px solid #DCD2C2;
+				width: 50%;
+				height: 100%;
+				float: right;
+				margin-top: -20px;
+				padding: 0;
+			}
+			/* Card 5 end */
+			
 }
+

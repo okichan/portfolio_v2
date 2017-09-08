@@ -72,4 +72,6 @@ This was my official effed up moment.
 I once wiped out my 5-hour work of `readme.md` because there was a conflict between local file and remote. And I force overwrote my latest one saved in the remote with the old one saved in the local by doing `git push -f`. <br>
 This happened because I kept editing my `readme.md` in remote repository directly.  
 I did create `.gitignore` in my local to exclude any `.md` files but it wasn't working for some reasons and thus `readme.mb` was pushed to remote when I only meant to push other files. Screw me.  
-- Try getting a big picture ―  there were a few instances where I had to do repeat my work because the images I prepared weren't big enough, so when it's zoomed in it became looking a bit ugly.
+- Try getting a big picture ― there were a few instances where I had to do repeat my work because the images I prepared weren't big enough, so when it's zoomed in it became looking a bit ugly.
+- Name your classes wisely ― I realised it's quite easy to get lost in your own coding if the classes are poorly named. I named a bunch of links at the top page "link" which later I ended up investigating what that means.
+I changed it to "menu" which is much more self-explanatory.
