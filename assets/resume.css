@@ -8,17 +8,18 @@
 
 body {
     padding: 0px 15px;
-    max-width: 700px;
+    max-width: 660px;
     margin: 0 auto;
 }
 
-.space-below-summary {
-    border: 4px solid transparent;
+.summary p {
+    margin-top: 1em;
+    /* max-width: 660px */
 }
 
 h2 {
-    padding-top: 1.3em;
-    /* border: 3px solid pink; */
+    margin-top: 1.3em;
+    /* border-left: 5px solid pink; */
 }
 
 h3 {
@@ -31,12 +32,16 @@ h4 {
     /* border: 3px solid pink; */
 }
 
-ul {
+h5 {
+    margin-bottom: 0.7em;
+}
+
+.bar-graph {
     list-style: none;
     padding-left: 7px;
 }
 
-li {
+.bar-graph li {
     width: 80%;
     border: 1px solid #bbb;
     box-shadow: 1px 1px 2px #ddd;
@@ -53,10 +58,10 @@ li {
 .bar3 {width: 60%;}
 .bar4 {width: 30%;}
 .bar5 {width: 40%;}
-.bar6 {width: 13%;}
+.bar6 {width: 9%;}
 .bar7 {width: 0%;}
 .bar8 {width: 0%;}
-.bar9 {width: 0%;}
+.bar9 {width: 12%;}
 .bar10 {width: 0%;}
 
 .bar p {
@@ -64,19 +69,63 @@ li {
     background-color: transparent;
 }
 
+.job-and-year {
+    max-width: 560px;
+    font-weight: bold;
+    margin-top: 2em;
+    margin-bottom: 0.4em;
+}
+
+.job-and-year .left {
+    float: left;
+}
+
+.job-and-year .right {
+    float: right;
+    /* clear: left;     */
+}
+
+.job-and-year:after {
+    content:" ";
+    display:block;
+    clear:both;
+}
+
+.job-desc {
+    list-style-position: outside;
+    padding-left: 1em;  
+    max-width: 560px;
+}
+
+.job-desc li {
+    margin-bottom: 4px;
+}
+
+.skills-used {
+    background-color: #ddd;
+    /* border: 1px solid #ccc; */
+    /* box-shadow: 1px 1px 1px rgba(204, 204, 204, 0.35); */
+    /* border: 1px dotted silver; */
+    margin: 5px 0 1em 0;
+    padding: 2px 0 2px 4px;
+    width: 90vw;
+    max-width: 550px;
+}    
+
 footer {
-    margin: 2.5em 0em 0.7em 0;
+    margin: 2.5em 0em 0.9em 0;
     float: right;
 }
 
-footer a {
-    color: inherit;
-    text-decoration-skip: ink;
-    
+.glyphicon {
+    font-size: 1.5em;
+    color: rgba(158, 202, 165, 0.93);
+    margin-right: 12px;
 }
 
-footer a:hover {
+i:hover {
     color: rgb(98, 195, 114);
-    text-decoration: none;
-    
+    /* text-shadow: 0px 0px 15px rgba(185, 185, 185, 1); */
+    /* text-shadow: -0 1px 4px rgba(85, 173, 35, 0.43); */
 }
+
