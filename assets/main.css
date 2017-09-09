@@ -364,10 +364,51 @@ ul, li {
     border: 15px solid #55295B;
     width: 98vw; margin-left: auto; margin-right: auto;
     height: 568px;
-    position: relative;
-    background: url('/assets/tsuru.png') no-repeat bottom left;
-    background-size: 124px;
+	position: relative;
+
 }
+
+.tsuru {
+	width: 160px;
+	position: absolute;
+	bottom: 1px;
+	left: 2px;
+	/* z-index: -1; */
+	/* border: 2px solid red; */
+}
+
+.tsuru img {
+	width: 100%;
+	position:absolute;
+	bottom: 0;
+	-webkit-transition: opacity 1s ease-in-out;
+	-moz-transition: opacity 1s ease-in-out;
+	-o-transition: opacity 1s ease-in-out;
+	transition: opacity 1s ease-in-out;
+}
+
+.tsuru img.tsuru-r {
+animation-name: tsuru-move;
+animation-timing-function: step-end;
+animation-iteration-count: 4;
+animation-duration: 3s;
+animation-direction: alternate;
+}
+
+@keyframes tsuru-move {
+	0% {
+	opacity:1;
+  }
+  45% {
+  opacity:1;
+  }
+  50% {
+  opacity:0;
+  }
+  100% {
+  opacity:1;
+  }
+  }
 
 .inner-frame-5 {
     border: 5px solid black;
@@ -414,7 +455,10 @@ input, textarea {
     width: 96%;
     margin: .5em auto;
     padding: 5px 0px 5px 12px;
-    border: 1px solid #bbb;
+	border: 1px solid #bbb;
+	background-color: rgba(243, 238, 226, 0.51);
+	position: relative;
+	z-index: 1;
 }
 
 input:focus, textarea:focus {
@@ -434,7 +478,9 @@ input[type="submit"] {
     float: right;
     width: 117px;
     background-color: #78A248;
-    padding-right: 7px;
+	padding-right: 7px;
+	position: relative;
+	z-index: 1;
 }
 
 input[type="submit"]:hover {
@@ -972,6 +1018,15 @@ footer a {
 				min-height: 568px;
 				position: relative;
 				overflow: hidden;
+			}
+
+			.tsuru {
+				width: 240px;
+				position: absolute;
+				bottom: -11px;
+				left: -20px;
+				/* z-index: -1; */
+				/* border: 2px solid red; */
 			}
 
 			.inner-frame-5 {
