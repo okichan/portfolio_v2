@@ -390,7 +390,7 @@ ul, li {
 .tsuru img.tsuru-r {
 animation-name: tsuru-move;
 animation-timing-function: step-end;
-animation-iteration-count: 4;
+animation-iteration-count: 14;
 animation-duration: 3s;
 animation-direction: alternate;
 }
