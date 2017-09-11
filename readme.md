@@ -78,5 +78,5 @@ I did create `.gitignore` in my local to exclude any `.md` files but it wasn't w
 I changed it to "menu" which is much more self-explanatory.
 
 
-# Enough talk, here is the website.
+# Ok here is the website.
 ### https://tomomioki.netlify.com/
