@@ -12,7 +12,7 @@ body {
 .page-frame {
     box-sizing: border-box;
     border: 15px solid #910C32;
-	width: 98vw; margin-left: auto; margin-right: auto;
+	width: 100vw; margin-left: auto; margin-right: auto;
 	height: 568px;
 }
 
@@ -79,7 +79,7 @@ body {
 .page-frame-2 {
     box-sizing: border-box;
     border: 15px solid #1C486B;
-    width: 98vw; margin-left: auto; margin-right: auto;
+    width: 100vw; margin-left: auto; margin-right: auto;
     min-height: 568px;
     position: relative;
     overflow: hidden;
@@ -170,7 +170,7 @@ body {
 .page-frame-3 {
     box-sizing: border-box;
     border: 15px solid #928C36;
-    width: 98vw; margin-left: auto; margin-right: auto;
+    width: 100vw; margin-left: auto; margin-right: auto;
     height: 568px;
     position: relative;
     /* background: url(/assets/hagi.png) no-repeat bottom right;
@@ -256,7 +256,7 @@ ul, li {
 .page-frame-4 {
     box-sizing: border-box;
     border: 15px solid #9E452A;
-    width: 98vw; margin-left: auto; margin-right: auto;
+    width: 100vw; margin-left: auto; margin-right: auto;
     min-height: 568px;
     position: relative;
     overflow: hidden;
@@ -362,7 +362,7 @@ ul, li {
 .page-frame-5 {
     box-sizing: border-box;
     border: 15px solid #55295B;
-    width: 98vw; margin-left: auto; margin-right: auto;
+    width: 100vw; margin-left: auto; margin-right: auto;
     height: 568px;
 	position: relative;
 
