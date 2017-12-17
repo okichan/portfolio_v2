@@ -53,16 +53,16 @@ h5 {
     background-color: rgba(158, 202, 165, 0.53);
 }
 
-.bar1 {width: 80%;}
-.bar2 {width: 90%;}
+.bar1 {width: 90%;}
+.bar2 {width: 85%;}
 .bar3 {width: 60%;}
-.bar4 {width: 30%;}
-.bar5 {width: 40%;}
-.bar6 {width: 9%;}
-.bar7 {width: 0%;}
-.bar8 {width: 0%;}
-.bar9 {width: 12%;}
-.bar10 {width: 0%;}
+.bar4 {width: 70%;}
+.bar5 {width: 50%;}
+.bar6 {width: 70%;}
+.bar7 {width: 40%;}
+.bar8 {width: 30%;}
+.bar9 {width: 50%;}
+.bar10 {width: 30%;}
 
 .bar p {
     padding: 2px 5px;
